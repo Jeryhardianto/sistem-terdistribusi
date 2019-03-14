@@ -31,63 +31,51 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link " href="kalimantan_timur.html">Kalimantan Timur </a>
-                <a class="nav-item nav-link" href="nunukan.html">Kabupaten Nunukan</a>
-                <a class="nav-item nav-link active" href="krayan.html">Kecamatan Krayan <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="liang_alig.html">Desa Liang Alig</a>
-            </div>
-        </div>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link " href="kalimantan_timur.html">Kalimantan Timur-64</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="nunukan.html">Kabupaten Nunukan-6404</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="krayan.html">Kecamatan Krayan-6404090</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="liang_alig.html">Desa Liang Alig</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page_source.html">View Page Source </a>
+            </li>
+        </ul>
     </nav>
     <div class="jumbotron">
         <div class="row">
-            <div class="col-md-6">
-                <div id="kecamatan" style="width: 700px; height: 580px;"></div>
-
-            </div>
-            <div class="col-md-6">
-                <h2>Sejarah Kecamatan Krayan</h2>
-                <p>Krayan adalah sebuah kecamatan di Kabupaten Nunukan, Kalimantan Utara, Indonesia. Kecamatan Krayan terletak di bagian barat Kabupaten Nunukan dan berbatasan dengan Serawak Malaysia. Terdiri dari 65 desa yang berpusat pemerintahan di Long
-                    Bawan, jumlah penduduknya 1.150.438 jiwa yang sebagian besarnya ialah penduduk asli pedalaman Kalimantan yaitu Suku Dayak Lundayeh. Perjalanan untuk mencapai kecamatan ini dari Kecamatan Nunukan harus ditempuh melalui transportasi
-                    udara melalui penerbangan dari Bandara Nunukan ke bandara perintis Long Bawan. Kecamatan Krayan merupakan penghasil beras terbesar di Kabupaten Nunukan, yaitu beras adan yang merupakan padi unggul organik, yang banyak dipasarkan ke
-                    Malaysia dan Brunei. Daerah ini juga memiliki komoditi unik yaitu garam gunung hasil dari pengolahan sumur air bergaram. Sebagian wilayah kecamatan ini berupa Taman Nasional Kayan Mentarang yang kaya dengan keanekaragaman hayati. Keaslian
-                    alam ini yang berpadu dengan kearifan Suku Dayak dalam mengelola alam menjadikan daerah Krayan sering menjadi pusat penelitian sejumlah lembaga nirlaba internasional dan berpotensi besar menjadi daerah tujuan pariwisata.[1]
-                    <strong>Sumber : wikipedia.org
-                    </strong> </p>
-
-            </div>
+            <div id="kecamatan" style="width: 1500px; height: 580px;"></div>
         </div>
-
-    </div>
-    <!-- Footer -->
-    <footer class="page-footer font-small blue">
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">©jeryhardianto - 2019</a>
-            <div>
-                <a href="https://www.facebook.com/profile.php?id=100009627699377" class="fab fa-facebook-square"></a>
-                &nbsp;
-                <a href="https://www.youtube.com/channel/UCZ8JVjhURTXix_BT4q8dnpg" class="fab fa-youtube"></a>
-                &nbsp;
-                <a href="https://www.instagram.com/jeryhardianto_/?hl=id" class="fab fa-instagram"></a>
-                &nbsp;
-                <a href="jeryhardianto19220005.000webhostapp.com" class="fas fa-globe"></a>
+        <!-- Footer -->
+        <footer class="page-footer font-small blue">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">©jeryhardianto - 2019</a>
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100009627699377" class="fab fa-facebook-square"></a>
+                    &nbsp;
+                    <a href="https://www.youtube.com/channel/UCZ8JVjhURTXix_BT4q8dnpg" class="fab fa-youtube"></a>
+                    &nbsp;
+                    <a href="https://www.instagram.com/jeryhardianto_/?hl=id" class="fab fa-instagram"></a>
+                    &nbsp;
+                    <a href="jeryhardianto19220005.000webhostapp.com" class="fas fa-globe"></a>
+                </div>
             </div>
-        </div>
-
-        <!-- Copyright -->
-
-    </footer>
-    <!-- Footer -->
-
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
 </body>
-
 <script>
     // Membuat data peta 
     var datakecamatan = {
             center: [4.063897, 115.776018],
-            zoom: 9
+            zoom: 10
         }
         // Membuat objek peta 
     var map = new L.map('kecamatan', datakecamatan);
